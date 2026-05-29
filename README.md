@@ -26,3 +26,10 @@ Important: Restart your computer after configuring vJoy to ensure the changes ta
 #5 Telemetry Setup: For the assist script to function, configure the telemetry settings in the game's options as follows:
 IP Address: 127.0.0.1
 Port: 20777
+
+![Image alt](https://github.com/kimonowka/forza-assist/blob/main/0.jpg)
+![Image alt](https://github.com/kimonowka/forza-assist/blob/main/1.jpg)
+![Image alt](https://github.com/kimonowka/forza-assist/blob/main/2.jpg)
+![Image alt](https://github.com/kimonowka/forza-assist/blob/main/3.jpg)
+![Image alt](https://github.com/kimonowka/forza-assist/blob/main/4.jpg)
+![Image alt](https://github.com/kimonowka/forza-assist/blob/main/5.jpg)
