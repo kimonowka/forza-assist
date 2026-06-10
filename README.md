@@ -20,12 +20,20 @@ Enable all checkboxes (axes) and set the Number of buttons to 14.
 Important: Restart your computer after configuring vJoy to ensure the changes take effect.
 
 #3 Hide Controllers: Configure HidHide and Steam Input settings as shown in the provided screenshots to prevent double-input issues.
+**Game Pass / Microsoft Store Users:**
+The Steam Input configuration step is not required. It exists only to prevent conflicts between Steam and HidHide. 
+Instead, add the Microsoft Store version of Forza to HidHide and ensure your physical controller is hidden correctly. 
+Also make sure that Forza does not receive any direct gamepad inputs, otherwise double-input issues may occur.
 
 #4 In-Game Settings: Launch Forza, navigate to the Controls menu, and configure your gamepad settings within the Steering Wheel tab.
 
 #5 Telemetry Setup: For the assist script to function, configure the telemetry settings in the game's options as follows:
 IP Address: 127.0.0.1
 Port: 20777
+
+Known Limitation:
+Because the assist tool emulates a steering wheel, you may lose the ability to control certain menu elements or move the camera with the right stick while driving. 
+This is a limitation of wheel emulation and not a bug in the assist tool.
 
 ![Image alt](https://github.com/kimonowka/forza-assist/blob/main/0.jpg)
 ![Image alt](https://github.com/kimonowka/forza-assist/blob/main/1.jpg)
