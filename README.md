@@ -2,9 +2,9 @@ To ensure the proper functioning of our Forza gamepad assist tool, please instal
 
 vJoy: A driver used to create a virtual game controller, allowing the script to send inputs to the game.
 
-DS4Windows: Required for DualShock gamepad users to emulate an Xbox 360 controller, ensuring proper input recognition.
-
 HidHide: A utility used to hide physical controllers from the system, which prevents "double-input" conflicts between your real and virtual controllers.
+
+DS4Windows: Required for DualShock gamepad users to emulate an Xbox 360 controller, ensuring proper input recognition.
 
 Setup Instructions for Forza Gamepad Assist
 Please follow these steps to configure your environment:
