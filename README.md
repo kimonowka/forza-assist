@@ -20,6 +20,7 @@ Enable all checkboxes (axes) and set the Number of buttons to 14.
 Important: Restart your computer after configuring vJoy to ensure the changes take effect.
 
 #3 Hide Controllers: Configure HidHide and Steam Input settings as shown in the provided screenshots to prevent double-input issues.
+
 Game Pass / Microsoft Store Users:
 The Steam Input configuration step is not required. It exists only to prevent conflicts between Steam and HidHide. 
 Instead, add the Microsoft Store version of Forza to HidHide and ensure your physical controller is hidden correctly. 
