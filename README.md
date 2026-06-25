@@ -1,3 +1,9 @@
+STEAM VERSION ONLY!
+The Xbox / Microsoft Store (Game Pass) version of Forza is **not supported**.
+The assist tool depends on HidHide to hide physical controllers and avoid double-input conflicts. However, UWP applications do not support HidHide's application allowlist mechanism, making it impossible to hide controllers from the Xbox version of Forza while keeping them accessible to other software.
+Only the **Steam version** of Forza is currently supported.
+
+
 To ensure the proper functioning of our Forza gamepad assist tool, please install and configure the following software requirements:
 
 vJoy: A driver used to create a virtual game controller, allowing the script to send inputs to the game.
@@ -20,11 +26,6 @@ Enable all checkboxes (axes) and set the Number of buttons to 14.
 Important: Restart your computer after configuring vJoy to ensure the changes take effect.
 
 #3 Hide Controllers: Configure HidHide and Steam Input settings as shown in the provided screenshots to prevent double-input issues.
-
-Game Pass / Microsoft Store Users:
-The Steam Input configuration step is not required. It exists only to prevent conflicts between Steam and HidHide. 
-Instead, add the Microsoft Store version of Forza to HidHide and ensure your physical controller is hidden correctly. 
-Also make sure that Forza does not receive any direct gamepad inputs, otherwise double-input issues may occur.
 
 #4 In-Game Settings: Launch Forza, navigate to the Controls menu, and configure your gamepad settings within the Steering Wheel tab.
 
