@@ -1,8 +1,22 @@
-STEAM VERSION ONLY!
-The Xbox / Microsoft Store (Game Pass) version of Forza is **not supported**.
-The assist tool depends on HidHide to hide physical controllers and avoid double-input conflicts. However, UWP applications do not support HidHide's application allowlist mechanism, making it impossible to hide controllers from the Xbox version of Forza while keeping them accessible to other software.
-Only the **Steam version** of Forza is currently supported.
+Microsoft Store / Game Pass Version
 
+The Microsoft Store / Game Pass version is now partially supported.
+
+Option 1 - HidHide (Experimental)
+
+Some users have reported that HidHide can work with the Microsoft Store version by adding GameLaunchHelper.exe to the HidHide application allowlist instead of the Forza executable.
+Note: This method is community-discovered and has not been thoroughly tested. Results may vary.
+
+Option 2 - Special K (Recommended)
+
+If HidHide does not work, you can use Special K instead.
+Launch Forza through Special K.
+Open the Special K overlay.
+Go to Input Management → Gamepad.
+Disable Controller Slot 0.
+Enable Controller Slot 1.
+
+This prevents Forza from reading your physical controller while still allowing the assist tool to function correctly.
 
 To ensure the proper functioning of our Forza gamepad assist tool, please install and configure the following software requirements:
 
