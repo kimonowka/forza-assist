@@ -13,8 +13,7 @@ If HidHide does not work, you can use Special K instead.
 Launch Forza through Special K.
 Open the Special K overlay.
 Go to Input Management → Gamepad.
-Disable Controller Slot 0.
-Enable Controller Slot 1.
+Disable Xinput
 
 This prevents Forza from reading your physical controller while still allowing the assist tool to function correctly.
 
@@ -24,12 +23,14 @@ vJoy: A driver used to create a virtual game controller, allowing the script to 
 
 HidHide: A utility used to hide physical controllers from the system, which prevents "double-input" conflicts between your real and virtual controllers.
 
-DS4Windows: Required for DualShock gamepad users to emulate an Xbox 360 controller, ensuring proper input recognition.
+x360ce (Optional)
+
+If you're using a third-party controller that does not support XInput, you'll need x360ce to emulate an Xbox controller.
+
+Controllers with native XInput support (such as Xbox controllers) do not require x360ce.
 
 Setup Instructions for Forza Gamepad Assist
 Please follow these steps to configure your environment:
-
-DualShock Users: Configure DS4Windows to emulate an Xbox 360 controller.
 
 #1 Install vJoy: Download and install the latest version of vJoy.
 
